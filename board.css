@@ -163,8 +163,8 @@ tbody a:visited{
  nav ul{ 
     padding: 13px;
     background-color:#D3D3D3;
-    width:90px;
-    height:412px;
+    width:130px;
+    height:250px;
  }
  .nav-container{
     display:flex;
@@ -176,9 +176,10 @@ tbody a:visited{
  }
  nav ul li{
     font-size:16px;
-    padding-bottom:30px;
+    padding-bottom:20px;
+    padding-top:20px;
     text-align: center;
-    padding-top:30px;
+    
  }
  ul a{
     color:black;
