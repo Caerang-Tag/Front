@@ -1,10 +1,90 @@
 
  
-table, th, td {border:1px solid #333333; border-collapse:collapse; padding:5px ;text-align: center;}
+/*헤더 푸터 부분*/
+*{
+   margin:0;
+   padding:0;
+}
 
+li{
+   list-style:none;
+}
+
+a{
+   text-decoration:none;
+}
+
+.member{
+   position: absolute;
+   right:15px;
+   top:5px;
+
+}
+.wrapper{
+   width:1400px;
+   margin:0 auto;
+   position: relative;
+}
+
+.clearfix{
+   content:'';
+   display:block;
+   clear:both;
+
+}
+
+header{
+   height:100px; 
+   background-color:rgba(0, 0, 0, 0.781);
+   width:100%;
+   z-index:9999;
+   top:0;
+   left:0;
+}
+
+h1{
+   color:white;
+   line-height:100px;
+   float:left;
+}
+.menu, .member{float:right;}
+.menu li, .member li{float:left;}
+.menu a{
+   line-height:100px;
+   color:white;
+   font-size: 25px;
+   padding:0 20px;
+   display: block;
+   text-decoration:none;
+}
+.member a{
+   color:rgba(255, 255, 255, 0.63);
+   padding:0 5px;
+   display:block;
+   text-decoration:none;
+}
+
+section{
+   font-size:30px;
+}
+.footer{
+   left:0;
+   bottom:0;
+   right:0;
+   z-index:9999;
+   top:0;
+   height:100px; 
+   width:100%;
+   background-color: rgba(0, 0, 0, 0.781);
+   color:white;
+   text-align: center;
+   line-height:100px;
+}
+/*헤더 푸터 부분 끝*/
 
  
-/*헤드부 */
+
+table, th, td {border:1px solid #333333; border-collapse:collapse; padding:5px ;text-align: center;}
 
 /*표 전체 레이아웃 잡는부분*/
 
@@ -56,7 +136,7 @@ tbody a:visited{
    display:flex;
    flex-direction: row;
    margin-bottom:150px;
-   
+   justify-content: center;
 }
 .search{
    border-top-color: #ebebea;
@@ -74,6 +154,35 @@ tbody a:visited{
     border:1px solid black;
  }
  .table-container{
+    display: flex;
+    flex-direction: column;
+    margin-top:130px;
+    margin-left:200px;
+
+ }
+ nav ul{ 
+    padding: 13px;
+    background-color:#D3D3D3;
+    width:90px;
+    height:412px;
+ }
+ .nav-container{
     display:flex;
     flex-direction: column;
+ }
+ nav h1{
+    text-align: center;
+    color :black;
+ }
+ nav ul li{
+    font-size:16px;
+    padding-bottom:30px;
+    text-align: center;
+    padding-top:30px;
+ }
+ ul a{
+    color:black;
+ }
+ nav ul a:hover{
+    border-bottom:2px solid rgba(0, 0, 0, 0.336);
  }
