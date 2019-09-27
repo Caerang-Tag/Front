@@ -1,0 +1,79 @@
+
+ 
+table, th, td {border:1px solid #333333; border-collapse:collapse; padding:5px ;text-align: center;}
+
+
+ 
+/*헤드부 */
+
+/*표 전체 레이아웃 잡는부분*/
+
+thead { background-color: white ;}
+ 
+  
+/*버텀부*/
+
+tfoot { text-align:center;}
+ 
+ 
+/*tbody*/
+tbody a{ color:#333; }
+ 
+/*아직 링크 안넣음.*/
+tbody a:link{
+    font-size:10px;
+    text-decoration:none;
+ }
+tbody a:hover{ text-decoration:underline;}
+tbody a:active { font-size:13px; }
+tbody a:visited{
+    font-size:10px;
+    color:#333;
+    text-decoration:none;
+         
+ }
+
+ 
+ /*tfoot*/
+ 
+ tfoot a{ color:#06F; }
+ 
+ tfoot a:link{
+    font-size:12pt;
+    text-decoration:none;
+ }
+ tfoot b{
+     font-size:12pt;
+ }
+ tfoot a:visited{
+    font-size:12px;
+    text-decoration:none;
+         
+ }
+ tfoot a:hover{ text-decoration:underline;}
+ tfoot a:active { font-size:10px; }
+ .container{
+   display:flex;
+   flex-direction: row;
+   margin-bottom:150px;
+   
+}
+.search{
+   border-top-color: #ebebea;
+   background-color: #f9f9f8;
+   padding: 16px 0 16px;
+   border-top: 1px solid #ebebea;
+   background-color: #f9f9f8;
+   text-align: center;
+}
+ .search .select-component{
+    border:1px solid black;
+    border-collapse:collapse;
+ }
+ .search .search-area{
+    border:1px solid black;
+ }
+ .table-container{
+    display:flex;
+    flex-direction: column;
+ }
