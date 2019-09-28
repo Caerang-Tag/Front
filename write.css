@@ -81,16 +81,22 @@
  /*헤더 푸터 부분 끝*/
 
  #postTitle{
-     margin-left:40px;
-     margin-top:17px;
+     margin-left:20px;
+     margin-top:12px;
      margin-bottom:15px;
-     width:506px;
+     width:500px;
      height:15px;
+     padding: 5px 5px;
+     border:1px solid rgba(0, 0, 0, 0.349);
+     
  }
  .Post_head{
      display:flex;
      flex-direction: row;
+     width:602px;
      justify-content: center;
+     margin:0 auto;
+     background-color:rgba(0, 0, 0, 0.055);
  }
  form{
      display:flex;
@@ -108,6 +114,7 @@
      flex-direction: row;
      align-items: center;
      margin:auto;
+     background-color: rgba(0, 0, 0, 0.055);
  }
  .Tag{
      border:1px solid rgba(0, 0, 0, 0.336);
@@ -121,6 +128,11 @@
  }/*태그 flex 정하기위해 만듬*/
  #content{
      font-size:20px;
+ }
+ select{
+    margin-left:5px;
+    background-color:rgba(0, 0, 0, 0.055);
+    border:1px solid rgba(0, 0, 0, 0.055);
  }
  textarea{
     resize:none;
