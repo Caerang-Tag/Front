@@ -49,9 +49,19 @@
             </nav>
             <span class="table-container">
             <div class="search">
+            <span class ="select_component">
+                <div><a href="#" onclick="showID('content')">전체기간</a></div>
+                <div  id="content" style="display:none"> 
+                     <a href="#">상반기</a><br>
+                     <a href="#">하반기</a>
+                </div>
+                
+            </span>   
+                
                 <input type="text" id="query" name="query" placeholder="검색어를 입력해주세요">
 
                 <button onclick>검색</button>
+                <span id="write"><a href="write.html">글쓰기</a></span>
             </div>
                 <table>
                     <colgroup>
@@ -65,21 +75,49 @@
                     <!--바디-->
                     <thead>
                         <tr>
-                            <th>팀명</th>
-                            <th>제목</th>
-                            <th>등록일</th>
-                            <th>작성자</th>
-                            <th>조회수</th>
+                            <th class="thTeam" scope="col">팀명</th>
+                            <th class="thTitle" scope="col">제목</th>
+                            <th class="thDate" scope="col">등록일</th>
+                            <th class="thName" scope="col">작성자</th>
+                            <th  class="thCount" scope="col">조회수</th>
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td class="tdTeam">태그</td>
-                            <td class="tdTitle">제목</td>
-                            <td class="tdDate"> 2019.09.27</td>
-                            <td class="tdName"> 팀장 </td>
-                            <td class="tdCount">4</td>
+                            <td>태그</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>라온</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>라온</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>코어</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>라뗴</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
                         </tr>
                     </tbody>
 
@@ -96,10 +134,12 @@
                         </tr>
                     </tfoot>
                 </table>
-
-                </span>
                 
-            </setction>
+
+            </span>
+                
+        </setction>
+    <script type="text/javascript" src="board.js"></script>
     </body>
     <footer>
         <div class="footer">

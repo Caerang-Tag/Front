@@ -145,6 +145,7 @@ tbody a:visited{
    border-top: 1px solid #ebebea;
    background-color: #f9f9f8;
    text-align: center;
+   height:60px;
 }
  .search .select-component{
     border:1px solid black;
@@ -186,4 +187,26 @@ tbody a:visited{
  }
  nav ul a:hover{
     border-bottom:2px solid rgba(0, 0, 0, 0.336);
+ }
+
+ .select_component{
+    float:left;
+    font-size:13px;
+    width:144px;
+    border:1px solid rgba(0, 0, 0, 0.336);
+    margin-right:10px;
+ }
+ .select_component a{
+    color:black;
+ }
+ #write{
+    
+    
+    border:1px solid rgba(0, 0, 0, 0.336);
+    float:right;  
+ }
+ #write a{
+    font-size:13px;
+    color:black;
+    padding:3px;
  }
