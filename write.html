@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="write.css">
     <title>Document</title>
+    <link href="suneditor.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -35,7 +36,32 @@
 </header>
 
 <section>
-   
+        <form action="write.php" method="post">
+            <span class = "Post_head">
+                <div class="Tagline">
+                    <select name="tag">
+                        <option value="모집">모집</option>
+                        <option value="홍보">홍보</option>
+                        <option value="기타">기타</option>
+                        <option value="총회">총회</option>
+                        <option value="공지">공지</option>
+                        <option value="필독">필독</option>
+                    </select>
+                </div>
+                <input type="text" name="postTitle" id ="postTitle" /><br />
+            </span>
+            
+            <span class="Post_body">
+            <textarea id="editor"></textarea>
+            </span>
+
+            <span class="Post_bottom">
+                
+            <input name="myFile" type="file" class="file">
+            <input type="submit" class="Submit" value="등록" />
+            
+            </span>
+        </form>
 </section>
 
 <footer>
@@ -43,5 +69,9 @@
         <p>copyright</p>
     </div>
 </footer>
+<script src="suneditor.min.js"></script>
+<script src="write.js"></script>
+
 </body>
+
 </html>

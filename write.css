@@ -79,3 +79,70 @@
     line-height:100px;
  }
  /*헤더 푸터 부분 끝*/
+
+ #postTitle{
+     margin-left:40px;
+     margin-top:17px;
+     margin-bottom:15px;
+     width:506px;
+     height:15px;
+ }
+ .Post_head{
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+ form{
+     display:flex;
+     flex-direction:column;
+ }
+ .Submit{
+     width:50px;
+     height:30px;
+     float:right;
+     margin-left: 300px;
+   
+ }
+ .Post_bottom{
+     display:flex;
+     flex-direction: row;
+     align-items: center;
+     margin:auto;
+ }
+ .Tag{
+     border:1px solid rgba(0, 0, 0, 0.336);
+     font-size:20px;
+     color:black;
+     margin-right:50px;
+ }
+ .TagLine{
+     display:flex;
+     flex-direction: column;
+ }/*태그 flex 정하기위해 만듬*/
+ #content{
+     font-size:20px;
+ }
+ textarea{
+    resize:none;
+ }
+#editor{
+    width:600px;
+    height:30px;
+ }
+ #writing{
+    width:600px;
+    height:300px;
+ }
+ .Post_body{
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+ }
+
+ #suneditor_editor > div > div.se-toolbar.sun-editor-common{
+    width:600px;
+    height:150px;
+ }
+ #suneditor_editor > div > div.se-wrapper > div.se-wrapper-inner.se-wrapper-wysiwyg.sun-editor-editable{
+    min-height:300px;
+ }
