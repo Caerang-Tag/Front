@@ -139,11 +139,8 @@ tbody a:visited{
    justify-content: center;
 }
 .search{
-   border-top-color: #ebebea;
    background-color: #f9f9f8;
    padding: 16px 0 16px;
-   border-top: 1px solid #ebebea;
-   background-color: #f9f9f8;
    text-align: center;
    height:60px;
 }
@@ -159,6 +156,7 @@ tbody a:visited{
     flex-direction: column;
     margin-top:130px;
     margin-left:200px;
+    border: 10px solid #f9f9f8;
 
  }
  nav ul{ 
@@ -180,7 +178,6 @@ tbody a:visited{
     padding-bottom:20px;
     padding-top:20px;
     text-align: center;
-    
  }
  ul a{
     color:black;
@@ -209,4 +206,17 @@ tbody a:visited{
     font-size:13px;
     color:black;
     padding:3px;
+ }
+
+ img{
+    width:30px;
+    height:15px;
+ }
+ .select_top{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+ .select_top span{
+    margin-left:28px;
  }
