@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="club_intro.css">
+
+    <style>
+        
+    </style>
+</head>
+
+<body>
+  <header>
+        <!-----------Header----------->
+        <div class="wrapper">
+          <h1>LOGO</h1>
+            
+            <ul class="member">
+                    <li><a href="join">로그인</a></li>
+                    <li><a> | </a></li>
+                    <li><a href="join">회원가입</a></li>
+                </ul>
+
+                <ul class="menu">
+                    <li><a href="notice">공지사항</a></li>
+                    <li><a href="club_intro,html">동아리소개</a></li>
+                    <li><a href="board">게시판</a></li>
+                    <li><a href="schedule">일정</a></li>
+                </ul>
+        </div>
+  </header>
+
+<!------로고와 소개부분------>
+
+<section class = "container">
+  <div class = "float_intro">
+      <div id = "float_Logo"><img src="club_intro_img/RAON.png" width="70%"></div>
+      <div id = "float_content">
+        <span>RAON</br></br></span>
+        1992년부터 이어져 온 유서 깊은 동아리로써 씨는 Computer 愛는 사랑애, 랑은 순우리말로 모임이라는 뜻으로, 컴퓨터를 사랑하는 사람들이 만든 모임.</br>
+        C.愛.랑은 3가지 팀으로 구성되어 있습니다.</br>
+        먼저 라떼팀은 안드로이드를 이용한 모바일 프로그래밍을 공부하고, 라온팀은 DirectX, 서버 등을 이용한 게임 프로그래밍을 공부하며, 코어팀은 아두이노 라즈베리 파이를 이용한 임베디드를 중점으로 공부하고 있습니다.</br>
+      </div>
+  </div>
+
+  <!-------사진 슬라이더------->
+
+  <div class = "pictures">
+    <div class = "pic_box">
+      <div class = "pic_text">
+        <span>활동사진</br></br></span>
+      </div>
+      <div class = "picture">
+          <div class="siema">
+            <!--
+              <button class="prev">&lt;</button>
+              --->
+              
+              <div class="flex">  
+                <img src="club_intro_img/1.jpg" width="10px"/>
+                <img src="club_intro_img/2.jpg"  width="10px"/>
+                <img src="club_intro_img/3.jpg"  width="10px"/>
+              </div>
+              <div class="flex">
+                <img src="club_intro_img/3.jpg"  width="10px"/>
+                <img src="club_intro_img/2.jpg"  width="10px"/>
+                <img src="club_intro_img/1.jpg"  width="10px"/>
+              </div>
+              <div class="flex">
+                  <img src="club_intro_img/2.jpg"  width="10px"/>
+                  <img src="club_intro_img/3.jpg"  width="10px"/>
+                  <img src="club_intro_img/1.jpg"  width="10px"/>
+              </div>
+              <!---
+              <button class="next">&gt;</button>  
+                ---->
+              
+          </div>        
+      </div>
+      <script src="siema.min.js"></script>
+      <script>
+        new Siema();
+      </script>
+    </div>
+  </div>
+
+ 
+  <!-------------------------------------contact------------------------------->
+  <div class = "lay-contact-frame">
+    <div class ="lay-contact-wrap img">
+          <img src="club_intro_img/phone.jpg" width="1920px"height="500px">
+        </div>
+      <div class = "lay-contact-text">
+              <div class="lay-contact-text-table">
+                      <div class="lay-contact-text-table-row">
+                          <div class="lay-contact-text-table-cell">
+                                  #Contact<br><br>팀장 : @@@<br>RAON : TEAM_RAON@naver.com
+                          </div>        
+                      </div>            
+                  </div>       
+      </div>
+  </div>
+  
+  </section>
+</body>
+
+<footer>
+    <div class="footer">
+        <p>copyright</p>
+    </div>
+</footer>
+
+</html>
