@@ -1,0 +1,145 @@
+
+td,
+tr,
+input,
+textarea,
+select,
+FORM {
+    font-family: 맑은고딕;
+    font-size: 1em;
+}
+
+
+
+input{
+    width:300px;
+    border:2px solid rgba(109, 103, 103, 0.377);
+}
+
+table,
+FORM {
+    border: none;
+    border-spacing: 30px;
+}
+
+#submit{
+    width:100px;
+    border-radius: 10px;
+}
+#Department{
+    width:304px;
+}
+#check{
+    width:70px;
+    text-align:center;
+    border:2px solid rgba(109, 103, 103, 0.377);
+    border-radius: 10px;
+}
+#identification{
+    width:100px;
+}
+table{
+    margin:20px;
+}
+center {
+    margin: 30px;
+}
+
+
+
+
+
+
+
+/*헤더 푸터 부분*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.member {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+
+}
+
+.wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+header {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.781);
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    color: white;
+    line-height: 100px;
+    float: left;
+}
+
+.menu,
+.member {
+    float: right;
+}
+
+.menu li,
+.member li {
+    float: left;
+}
+
+.menu a {
+    line-height: 100px;
+    color: white;
+    font-size: 25px;
+    padding: 0 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.member a {
+    color: rgba(255, 255, 255, 0.63);
+    padding: 0 5px;
+    display: block;
+    text-decoration: none;
+}
+
+section {
+    font-size: 30px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
