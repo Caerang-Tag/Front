@@ -1,0 +1,141 @@
+
+/* -------------------------header------------------------*/
+*{
+  margin:0;
+  padding:0;
+  
+}
+
+
+li{
+  list-style:none;
+}
+
+a{
+  text-decoration:none;
+}
+
+.member{
+  position: absolute;
+  right:0px;
+  top:5px;
+}
+.wrapper{
+  width:1400px;
+  margin:0 auto;
+  position: relative;
+}
+
+.clearfix{
+  content:'';
+  display:block;
+  clear:both;
+
+}
+
+header{
+  height:100px; 
+  
+  width:100%;
+  z-index:9999;
+  top:0;
+  left:0;
+}
+
+h1{
+  color:white;
+  line-height:100px;
+  float:left;
+}
+.menu, .member{float:right;}
+.menu li, .member li{float:left;}
+.menu a{
+  line-height:40px;
+  color:white;
+  font-size: 23px;
+  margin:35px 0px 0px 50px;
+  display: block;
+  text-decoration:none;
+}
+.member a{
+  color:rgba(255, 255, 255, 0.63);
+  margin:3px 0px 0px 8px;
+  display:block;
+  text-decoration:none;
+}
+
+
+
+.menu li a:hover{
+  color:red;
+  
+}
+
+.menu li ul{
+  display:none;
+  height:auto;
+  position:absolute;
+  z-index:9999;
+  float:right;
+  
+}
+
+.menu li:hover ul{
+  display:block;
+  color:red;
+}
+
+.menu li li{
+  float: center;
+  display:block;
+}
+
+.menu li ul a{
+  color:white;
+  display:block;
+  text-align:center;
+  font-size:17px;
+  margin-left:18px;
+  margin-right:0px;
+  margin-top:0px;
+}
+
+
+
+/*----------------------------------------------*/
+body{
+  background: rgba(0, 0, 0, 0.781); 
+}
+.login{
+  
+  width: auto;
+  position: absolute;
+  top:50%;
+  left: 30%;
+}
+.login_box{
+  text-align: center;
+  float:left;
+  /*background: rgba(0, 0, 0, 0.781);*/
+  padding: 20px;
+}
+
+#login_text {
+  font-size: 50px;
+}
+
+#sign_pw{
+  color: #ffffff;
+}
+
+button{
+  margin : 0;
+  width : 120px;
+  height: 120px;
+  color: rgba(0, 0, 0, 0.781);
+}
+.login_btn{
+  float: right;
+  width : 120px;
+  height: 120px;
+}
