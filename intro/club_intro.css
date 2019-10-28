@@ -1,0 +1,252 @@
+/* header */
+*{
+  margin:0;
+  padding:0;
+}
+
+li{
+  list-style:none;
+}
+
+a{
+  text-decoration:none;
+}
+
+.wrapper{
+  width:1400px;
+  margin:0 auto;
+}
+
+.clearfix{
+  content:'';
+  display:block;
+  clear:both;
+
+}
+
+header{
+  height:100px; 
+  background-color:rgba(0, 0, 0, 0.781);
+  width:100%;
+  z-index:9999;
+  top:0;
+  left:0;
+}
+
+h1{
+  color:white;
+  line-height:100px;
+  float:left;
+}
+.menu, .member{float:right;}
+.menu li, .member li{float:left;}
+.menu a{
+  line-height:100px;
+  color:white;
+  font-size: 25px;
+  padding:0 20px;
+  display: block;
+  text-decoration:none;
+}
+.member a{
+  color:rgba(255, 255, 255, 0.63);
+  padding:0 5px;
+  display:block;
+  text-decoration:none;
+}
+
+section{
+  font-size:30px;
+}
+.footer{
+  left:0;
+  bottom:0;
+  right:0;
+  z-index:9999;
+  top:0;
+  height:100px; 
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.781);
+  color:white;
+  text-align: center;
+  line-height:100px;
+}
+
+/* start */
+
+.container {
+  margin: auto;
+  margin-top:100px;
+  max-width : 1200px;
+  contain: content;
+}
+
+/* 동아리 로고랑 소개글 */
+.float_intro{
+  border: 1px solid #fff;
+}
+
+#float_Logo {
+  width: 50%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+  max-width : 50%;
+  /*position: fixed;*/
+}
+#float_content{
+  width: 50%;
+  font-size: 20px;
+  text-align: left;
+  padding: 10px 0;
+  max-width : 50%;
+  float: right;
+}
+#float_content>span{
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+/* 사진 슬라이더 부분 */
+.pictures{
+  padding: 20px;
+  margin-top: 500px;
+  margin-bottom: 200px;
+}
+.pic_box{
+
+  padding: 0%;
+}
+.pic_text{
+  font-size: 40px;
+  font-weight: bold;
+  color : #000000;
+  text-align: center;
+  position: relative;
+}
+.pic_box>.pic_text::before {
+  content: "";
+  left: 0;
+  display: block;
+  top: 29px;
+  position: absolute;
+  width: calc(50% - 170px);
+  height: 1px;
+  background: #464343;
+  border-bottom: 1px solid #fff;
+}
+.pic_box>.pic_text::after {
+  border-bottom: 1px solid #fff;
+  right: 0;
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  background: #464343;
+  top: 29px;
+  width: calc(50% - 170px);
+}
+.picture>button{
+  position: relative;
+}
+.flex {
+  display: flex;
+  position:relative;
+}
+
+.flex>img {
+  flex: 1;
+}
+
+
+
+ /* 수상경력 */
+ .career{
+  padding: 20px;
+  margin-bottom: 150px;
+}
+.career_text{
+  font-size: 40px;
+  font-weight: bold;
+  color : #000000;
+  text-align: center;
+  position: relative;
+}
+.career>.career_text::before {
+  content: "";
+  left: 0;
+  display: block;
+  top: 29px;
+  position: absolute;
+  width: calc(50% - 170px);
+  height: 1px;
+  background: #464343;
+  border-bottom: 1px solid #fff;
+}
+.career>.career_text::after {
+  border-bottom: 1px solid #fff;
+  right: 0;
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  background: #464343;
+  top: 29px;
+  width: calc(50% - 170px);
+}
+
+.career_box {
+  padding:50px;
+  font-size: 28px;
+  text-align: left;
+  line-height: 200%;
+}
+/*--------------------------contact-------------------------------*/
+
+.lay-contact-frame{
+    
+  text-align: center;
+  position:relative;
+  margin : 50px
+}
+
+
+.lay-contact-wrap img{
+  filter: brightness(50%);
+  position:relative;
+}
+
+
+.lay-contact-text{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:left;
+  font-size:20px;
+  color:rgba(255, 255, 255, 0.897);
+}
+
+.lay-contact-text-table{
+  display:table;
+  width:100%;
+  height:100%;
+}
+
+.lay-contact-text-table-row{
+  display:table-row;
+}
+
+.lay-contact-text-table-cell{
+  display:table-cell;
+  vertical-align: middle;
+}
+
+.lay-contact-text p{
+  margin:0px 40px;
+  padding:0px;
+  color:white;
+  text-align:center;
+}
