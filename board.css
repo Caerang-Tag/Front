@@ -46,6 +46,10 @@ h1{
    color:white;
    line-height:100px;
    float:left;
+   
+}
+.teamname{
+   margin-top:50px;
 }
 .menu, .member{float:right;}
 .menu li, .member li{float:left;}
@@ -142,7 +146,10 @@ tbody a:visited{
    background-color: #f9f9f8;
    padding: 16px 0 16px;
    text-align: center;
-   height:60px;
+   height:80px;
+   display:flex;
+   height:30px;
+   justify-content: Space-around;
 }
  .search .select-component{
     border:1px solid black;
@@ -212,11 +219,10 @@ tbody a:visited{
     width:30px;
     height:15px;
  }
- .select_top{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
+
+ #select{
+    margin-right:337px;
  }
- .select_top span{
-    margin-left:28px;
+ #query{
+    margin-right:60px;
  }

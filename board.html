@@ -49,18 +49,19 @@
             </nav>
             <span class="table-container">
             <div class="search">
-            <span class ="select_component">
-                <div><a href="#" onclick="showID('content', 'img')" class="select_top"><span>전체기간</span> <img src="picture/Reverse_Triangle.png" alt="" id="img"></div></a> 
-                <div  id="content" style="display:none"> 
-                     <a href="#">상반기</a><br>
-                     <a href="#">하반기</a>
+            
+                <select name="" id="select">
+                    <option value="all">전체기간</option>
+                    <option value="firsthalf">상반기</option>
+                    <option value="lasthalf">하반기</option>
+                </select>
+                
+             
+                <div id="query">
+                    <input type="text" name="query" placeholder="검색어를 입력해주세요">
+                    <button onclick>검색</button>
                 </div>
                 
-            </span>   
-                
-                <input type="text" id="query" name="query" placeholder="검색어를 입력해주세요">
-
-                <button onclick>검색</button>
                 <span id="write"><a href="write.html">글쓰기</a></span>
             </div>
                 <table>
