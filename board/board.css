@@ -136,6 +136,7 @@ tbody a:visited{
  }
  tfoot a:hover{ text-decoration:underline;}
  tfoot a:active { font-size:10px; }
+
  .container{
    display:flex;
    flex-direction: row;
@@ -159,33 +160,46 @@ tbody a:visited{
     border:1px solid black;
  }
  .table-container{
-    display: flex;
+    display:flex;
     flex-direction: column;
+    
     margin-top:130px;
-    margin-left:200px;
+    margin-left:140px;
     border: 10px solid #f9f9f8;
 
  }
+ #query{
+    display:flex;
+    flex-direction: row;
+ }
+ button{
+    padding:10px;
+ }
  nav ul{ 
+    display:flex;
+    flex-direction: column;
+    
+    justify-content: center;
     padding: 13px;
     background-color:#D3D3D3;
-    width:130px;
-    height:250px;
+    width:150px;
+    height:360px;
+    margin-top:9rem;
  }
+ nav ul li{
+   font-size:16px;
+   padding-bottom:20px;
+   padding-top:20px;
+   text-align: center;
+   margin:auto;
+}
  .nav-container{
     display:flex;
     flex-direction: column;
+    
  }
- nav h1{
-    text-align: center;
-    color :black;
- }
- nav ul li{
-    font-size:16px;
-    padding-bottom:20px;
-    padding-top:20px;
-    text-align: center;
- }
+
+ 
  ul a{
     color:black;
  }
@@ -204,15 +218,18 @@ tbody a:visited{
     color:black;
  }
  #write{
-    
-    
-    border:1px solid rgba(0, 0, 0, 0.336);
-    float:right;  
- }
+   border:1px solid rgba(0, 0, 0, 0.336);
+   float:right;
+   width:45px;
+   overflow-x:hidden;
+   overflow-y:hidden;
+   
+}
  #write a{
     font-size:13px;
     color:black;
     padding:3px;
+    
  }
 
  img{
