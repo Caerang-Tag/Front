@@ -225,6 +225,11 @@ tbody a:visited{
    overflow-y:hidden;
    
 }
+#logo{
+   margin-top:10px;
+   width:82px;
+   height:82px;
+}
  #write a{
     font-size:13px;
     color:black;
