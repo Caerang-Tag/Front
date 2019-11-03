@@ -34,7 +34,7 @@ a{
 }
 
 header{
-    height:100px; 
+    height:120px; 
     background-color:rgba(0, 0, 0, 0.781);
     width:100%;
     z-index:9999;
@@ -53,7 +53,7 @@ h1{
     line-height:40px;
     color:white;
     font-size: 23px;
-    margin:35px 0px 0px 50px;
+    margin:40px 0px 0px 50px;
     display: block;
     text-decoration:none;
 }
@@ -63,14 +63,10 @@ h1{
     display:block;
     text-decoration:none;
 }
-
-
-
 .menu li a:hover{
     color:red;
     
 }
-
 .menu li ul{
     display:none;
     height:auto;
@@ -79,7 +75,6 @@ h1{
     float:right;
     
 }
-
 .menu li:hover ul{
     display:block;
     color:red;
@@ -95,11 +90,14 @@ h1{
     display:block;
     text-align:center;
     font-size:17px;
-    margin-left:18px;
-    margin-right:0px;
-    margin-top:0px;
+    margin: 0px 0px 0px 18px;
 }
-
+.logo{
+    width:80px;
+    height:80px;
+    margin : 20px 0  0 10px;
+    float:left;
+}
 
 
 /*----------------------------------------------*/
@@ -118,6 +116,7 @@ h1{
     width:100%;
     vertical-align:middle;
     filter:brightness(50%);
+    height:620px;
 }
 
 .lay-top-text{
@@ -126,6 +125,7 @@ h1{
     left:50%;
     transform:translate(-50%,-50%);
     text-align:center;
+    font-size : 80px;
 }
 
 .lay-top-text-table{
@@ -334,7 +334,7 @@ tr{
     
     text-align: center;
     position:relative;
-
+    height: 500px;
 }
 
 
@@ -375,14 +375,6 @@ tr{
     color:white;
     text-align:center;
 }
-
-
-
-
-
-
-
-
 
 
 .footer{
