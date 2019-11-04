@@ -1,10 +1,12 @@
 
  
-/*헤더 푸터 부분*/
+/* -------------------------header------------------------*/
 *{
    margin:0;
    padding:0;
+   
 }
+
 
 li{
    list-style:none;
@@ -16,9 +18,8 @@ a{
 
 .member{
    position: absolute;
-   right:15px;
+   right:0px;
    top:5px;
-
 }
 .wrapper{
    width:1400px;
@@ -34,7 +35,7 @@ a{
 }
 
 header{
-   height:100px; 
+   height:120px; 
    background-color:rgba(0, 0, 0, 0.781);
    width:100%;
    z-index:9999;
@@ -46,45 +47,61 @@ h1{
    color:white;
    line-height:100px;
    float:left;
-   
-}
-.teamname{
-   margin-top:50px;
 }
 .menu, .member{float:right;}
 .menu li, .member li{float:left;}
 .menu a{
-   line-height:100px;
+   line-height:40px;
    color:white;
-   font-size: 25px;
-   padding:0 20px;
+   font-size: 23px;
+   margin:40px 0px 0px 50px;
    display: block;
    text-decoration:none;
 }
 .member a{
    color:rgba(255, 255, 255, 0.63);
-   padding:0 5px;
+   margin:3px 0px 0px 8px;
    display:block;
    text-decoration:none;
 }
-
-section{
-   font-size:30px;
+.menu li a:hover{
+   color:red;
+   
 }
-.footer{
-   left:0;
-   bottom:0;
-   right:0;
+.menu li ul{
+   display:none;
+   height:auto;
+   position:absolute;
    z-index:9999;
-   top:0;
-   height:100px; 
-   width:100%;
-   background-color: rgba(0, 0, 0, 0.781);
-   color:white;
-   text-align: center;
-   line-height:100px;
+   float:right;
+   
 }
-/*헤더 푸터 부분 끝*/
+.menu li:hover ul{
+   display:block;
+   color:red;
+}
+
+.menu li li{
+   float: center;
+   display:block;
+}
+
+.menu li ul a{
+   color:white;
+   display:block;
+   text-align:center;
+   font-size:17px;
+   margin: 0px 0px 0px 18px;
+}
+.logo{
+   width:80px;
+   height:80px;
+   margin : 20px 0  0 10px;
+   float:left;
+}
+
+
+/*----------------------------------------------*/
 
  
 
