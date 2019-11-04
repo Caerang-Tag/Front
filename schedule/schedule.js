@@ -110,8 +110,8 @@ var cal = {
     cal.sDay = el.getElementsByClassName("dd")[0].innerHTML;
 
     // DRAW FORM
-    var tForm = "<h1>" + (cal.data[cal.sDay] ? "EDIT" : "ADD") + " EVENT</h1>";
-    tForm += "<div id='evt-date'>" + cal.sDay + " " + cal.mName[cal.sMth] + " " + cal.sYear + "</div>";
+    var tForm = "<h1>" + (cal.data[cal.sDay] ? "EDIT" : "일정") + " 추가</h1>";
+    tForm += "<div id='evt-date'>" + cal.sYear + "년 " + cal.mName[cal.sMth] + " " + cal.sDay + "일</div>";
     tForm += "<textarea id='evt-details' required>" + (cal.data[cal.sDay] ? cal.data[cal.sDay] : "") + "</textarea>";
     tForm += "<input type='button' value='Close' onclick='cal.close()'/>";
     tForm += "<input type='button' value='Delete' onclick='cal.del()'/>";
