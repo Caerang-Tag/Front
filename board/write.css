@@ -96,7 +96,9 @@
      width:602px;
      justify-content: center;
      margin:0 auto;
+     margin-top:4rem;
      background-color:rgba(0, 0, 0, 0.055);
+     
  }
  form{
      display:flex;
@@ -114,6 +116,7 @@
      flex-direction: row;
      align-items: center;
      margin:auto;
+     margin-bottom:4rem;
      background-color: rgba(0, 0, 0, 0.055);
  }
  .Tag{
