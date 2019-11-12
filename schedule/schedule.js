@@ -7,6 +7,8 @@ var cal = {
   sYear : 0, // Current selected year
   sMon : false, // Week start on Monday?
 
+
+  
   /* [FUNCTIONS] */
   list : function () {
   // cal.list() : draw the calendar for the given month
@@ -110,7 +112,7 @@ var cal = {
     cal.sDay = el.getElementsByClassName("dd")[0].innerHTML;
 
     // DRAW FORM
-    var tForm = "<h1>" + (cal.data[cal.sDay] ? "EDIT" : "일정") + " 추가</h1>";
+    var tForm = "<h1>일정" + (cal.data[cal.sDay] ? " 수정" : " 추가") + " </h1>";
     tForm += "<div id='evt-date'>" + cal.sYear + "년 " + cal.mName[cal.sMth] + " " + cal.sDay + "일</div>";
     tForm += "<textarea id='evt-details' required>" + (cal.data[cal.sDay] ? cal.data[cal.sDay] : "") + "</textarea>";
     tForm += "<input type='button' value='Close' onclick='cal.close()'/>";
@@ -152,6 +154,9 @@ var cal = {
     }
   }
 };
+
+
+
 
 // INIT - DRAW MONTH & YEAR SELECTOR
 window.addEventListener("load", function () {

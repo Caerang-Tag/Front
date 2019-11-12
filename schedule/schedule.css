@@ -30,7 +30,7 @@
   border: 1px solid #ddd;
   width: 14.28%;
   padding: 0px 5px;
-  padding-bottom: 40px;
+  height:70px;
   vertical-align: top;
 }
 #calendar tr.day td:hover {
@@ -201,7 +201,14 @@ h1{
   margin-top:0px;
 }
 
-
+td>span {
+  width:103px;
+  display: inline-block;
+  height:37px;
+}
+td>div {
+  width:103px;
+}
 
 /*----------------------------------------------*/
 .footer{
